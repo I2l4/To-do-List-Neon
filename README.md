@@ -50,3 +50,4 @@ Este projeto foi desenvolvido apenas com **HTML**, **CSS** e **JavaScript puro**
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/I2l4/To-do-List-Neon.git
+ 
