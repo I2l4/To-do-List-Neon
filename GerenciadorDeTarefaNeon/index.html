@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <title>To-Do List Neon (SVG)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Minha lista de Tarefas</h1>
+
+  <div class="container">
+    <input id="tarefa" type="text" placeholder="Digite uma tarefa..." />
+    <button id="btnAdd" title="Adicionar">
+      <!-- Ícone de adicionar -->
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false">
+        <path fill="currentColor" d="M11 11V6h2v5h5v2h-5v5h-2v-5H6v-2z"></path>
+      </svg>
+      Add
+    </button>
+  </div>
+
+  <ul id="lista"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
